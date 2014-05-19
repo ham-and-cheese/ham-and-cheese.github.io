@@ -1,0 +1,54 @@
+/*[class*='col-'] {float: left;}*/
+.col-1 {width: 100%;}
+.col-2-3 {width: 66.66%;}
+.col-1-3 {width: 33.33%;}
+.col-1-2 {width: 50%;}
+.col-1-4 {width: 25%;}
+.col-3-4 {width: 75%;}
+.col-1-8 {width: 12.5%;}
+* {box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-o-box-sizing: border-box;}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.content-wrapper article {background-color: #fff;}
+.header-img .post-header {background-color: #fff;margin: 0 auto;position: absolute;left: 25%;right: 25%;bottom: 0px;padding: 0 20px;}
+.header-img .post-header h1 {padding-bottom: 0px;}
+.responsive {width: 100%;height: auto;}
+.header-img {position: relative;background-image: url(http://24.media.tumblr.com/20a9c501846f50c1271210639987000f/tumblr_n4vje69pJm1st5lhmo1_1280.jpg);height: 600px;background-position: center;background-repeat: no-repeat;background-size: cover;}
+.content-wrapper {margin: 0 auto;padding: 50px;}
+.page-header {background-color: #fff;width: 100%;height: auto;padding: 50px 0px;}
+.page-nav {margin: 0 auto;text-align: center;}
+.page-nav ul {margin: 0;padding: 0;}
+.page-nav ul li {list-style-type: none;display: inline-block;margin: auto 10px;}
+.page-nav ul li a {letter-spacing: 3px;}
+.footer-wrap {text-align: center;padding: 50px;background-color: #ffffff;}
+
+body {line-height: 1.4;background-color: #ffffff;margin: 0px;padding: 0px;vertical-align: baseline;color: #464c4c;font-family: sans-serif;-webkit-font-smoothing: antialiased;}
+a {text-decoration: none;color: #464c4c;}
+::selection {background-color: #E7E7E7;}
+hr {display: block;height: 1px;border: none;border-top: solid 1px #ccc;width: 30%;margin: 7% auto 7% auto;}
+.module h1 {font-size: 46px;line-height: 75px;text-align: center;padding-bottom: 25px;letter-spacing: 3px;font-weight: 600;text-transform: uppercase;}
+.module h2 {font-size: 42px;line-height: 50px;margin-bottom: 25px;}
+.module h3 {font-size: 26px;line-height: 50px;margin-bottom: 25px;}
+.module h4 {margin-bottom: 25px;font-weight: 600;font-style: normal;}
+.module h5 {margin-bottom: 25px;font-style: normal;font-weight: normal;}
+.module h6 {font-weight: 400;font-style: italic;margin-bottom: 25px;font-weight: 300;}
+.module p {margin-bottom: 25px;font-size: 15px;}
+.module p.intro {font-size: 16px;}
+.module p.intro:first-letter {padding-left: 40px;}
+@media screen and (max-width: 43.75em) {
+	.col-1-3 {width: 50%;}
+	.col-1-2 {width: 100%;clear: both;}
+	.header-img .post-header {background-color: #fff;margin: 0 auto;left: 0px;right: 0px;}
+}
+@media screen and (max-width: 900px) {
+	.col-1-3 {width: 100%;clear: both;}
+	.col-1-4 {width: 100%;}
+	.col-3-4 {width: 100%;clear: both;}
+	.content-wrapper {padding: 20px;}
+	.page-header {padding: 50px 0px;}
+}
